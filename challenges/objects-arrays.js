@@ -129,236 +129,155 @@ const graduates = [{
 Once you have the new array created, sort the universities alphabetically and log the result. */
 
 const universities = [];
-// let sort = [];
-for (i = 0; i < graduates.length; i++) {
-  universities.push(graduates[i].university);
-}
 
 // for (i = 0; i < graduates.length; i++) {
-//   sort.push(graduates[i].university);
+//   universities.push(graduates[i].university);
 // }
 
-// function alph(arr) {
-//   for (i = 0; i < arr.length; i++) {
-//     for (j = 0; j < arr[i].length; j++) {
-//       if (arr[i][j].toUpperCase() === 'A') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'B') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'C') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'D') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'E') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'F') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'G') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'H') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'I') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'J') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'K') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'L') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'M') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'N') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'O') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'P') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'Q') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'R') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'S') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'T') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'U') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'V') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'W') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'X') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'Y') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//       if (arr[i][j].toUpperCase() === 'Z') {
-//         universities.push(arr[i]);
-//         arr[i] = 0;
-//         return i++
-//       }
-//     }
-//   }
-// }
-// alph(sort)
+let sort = [];
+for (i = 0; i < graduates.length; i++) {
+  sort.push(graduates[i].university);
+}
 
-// if (sort[i] {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('B', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('C', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('D', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('E', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('F', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('G', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('H', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('I', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('J', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('K', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('L', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('M', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('N', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('O', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('P', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('Q', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('R', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('S', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('T', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('U', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('V', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('W', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('X', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('Y', j)) {
-//   universities.push(graduates[i].university);
-// }
-// if (graduates[i].university.toUpperCase().includes('Z', j)) {
-//   universities.push(graduates[i].university);
-// }
-//   }
-// }
+function alph(arr) {
+  for (j = 0; j < arr.length; j++) {
+    if (universities.length < arr.length) {
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'A') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'B') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'C') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'D') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'E') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'F') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'G') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'H') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'I') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'J') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'K') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'L') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'M') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'N') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'O') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'P') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'Q') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'R') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'S') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'T') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'U') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'V') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'W') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'X') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'Y') {
+          universities.push(arr[i]);
+        }
+      }
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i][j].toUpperCase() === 'Z') {
+          universities.push(arr[i]);
+        }
+      }
+    }
+  }
+}
+alph(sort)
 
-// console.log(graduates.universities);
-console.log(universities.sort());
+console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
 
